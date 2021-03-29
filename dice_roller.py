@@ -6,7 +6,7 @@ def main():
     roll = random.randint(1,6)
     diceSum += roll
     print(f'You rolled a {roll}')
-  print(f'You have rolled a total of {diceSum}')
+   print(f'You have rolled a total of {diceSum}')
 
 if __name__== "__main__":
   main()
