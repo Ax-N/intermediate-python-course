@@ -1,8 +1,10 @@
 import random 
 def main():
-   dice_rolls = 2
-   for i in range(0,dice_rolls):
+   diceRolls = 2
+   diceSum = 0
+   for i in range(0,diceRolls):
     roll = random.randint(1,6)
+    diceSum = diceSum + roll
     print(f'You rolled a {roll}')
 
 if __name__== "__main__":
