@@ -5,7 +5,6 @@ def main():
    for i in range(0,diceRolls):
     roll = random.randint(1,6)
     diceSum += roll
-    print(f'You rolled a {roll}')
    if roll == 1:
     print(f'You rolled a {roll}! Critical fail')
    else:
